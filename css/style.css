@@ -1,12 +1,7 @@
-
-div#background_top {
-	position: absolute;
-	padding-top: 100px;
-	height: 180px;
-	width: 101%;
-	background: repeat url("../images/bgtile.png");
-	z-index: -1;	
-}
+/**************SECTION DIVS***********/
+section#background {
+	width: 100%;
+} 
 
 section#main {
 	width: 900px ;
@@ -14,6 +9,27 @@ section#main {
 	padding-top: 83px;
 
 }
+section#footer {
+	clear: both;
+	font-family: "Hind Vadodara", sans-serif;
+	font-weight: 600;
+	font-size: .80em;
+	padding-top: 20px;
+	text-align: center;
+}
+/**************BACKGROUND STYLES***********/
+
+div#background_top {
+	position: absolute;
+	padding-top: 80px;
+	height: 180px;
+	width: 101%;
+	background: repeat url("../images/bgtile.png");
+	z-index: -1;	
+}
+
+/**********MAIN CONTENT STYLES***********/
+
 
 img#phones {
 	float: left;
@@ -24,25 +40,23 @@ div#main_right_column {
 	display: inline-block;
 	margin-left: 50px;
 }
+
 div#top_right_column {
 	height: 78px;
-}
-
-#brand {
 }
 
 button#home.button {
 	display: inline;
 	font-family: "Hind Vadodara", sans-serif;
 	font-weight: 600;
+	font-size: 14px;
 	color: #DFE8F0;
 	background: linear-gradient(to bottom, #6E92B0, #487398);
-	margin-top: 10px;
-	margin-right: 5px;
+	margin: 18px 5px 0 0;
 	padding: 8px;
 	border-radius: 3px;
-	box-shadow: 0 0 1px 1px rgba(0, 0, 0, .4);
-	vertical-align: top;
+	box-shadow: 0 0 1px 1px rgba(0, 0, 0, .2);
+	vertical-align: text-bottom;
 	letter-spacing: 0;
 	border: 1px solid #4A7194;
 	float: right;
@@ -61,7 +75,7 @@ div#white_img_frame {
 
 div#frame_content {
 	margin: 20px 20px 0;
-	padding: 30px 30px 0;
+	padding: 30px 25px 0;
 	font-family: "Hind Vadodara", sans-serif;
 
 }
@@ -80,22 +94,12 @@ p {
 	padding-top: 5px
 }
 
-section#background {
-	width: 100%;
-} 
-
 .badge {
 	padding: 25px 10px;
 }
 
-section#footer {
-	clear: both;
-	font-family: "Hind Vadodara", sans-serif;
-	font-weight: 600;
-	font-size: .80em;
-	padding-top: 20px;
-	text-align: center;
-}
+/***********FOOTER STYLES***********/
+
 
 #footer_content {
 	list-style: none;
