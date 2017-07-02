@@ -36,12 +36,22 @@ button#home.button {
 	font-family: "Hind Vadodara", sans-serif;
 	font-weight: 600;
 	color: #DFE8F0;
-	background: #4980A9;
-	margin-left: ;
-	padding: 10px;
+	background: linear-gradient(to bottom, #6E92B0, #487398);
+	margin-top: 10px;
+	margin-right: 5px;
+	padding: 8px;
+	border-radius: 3px;
+	box-shadow: 0 0 1px 1px rgba(0, 0, 0, .4);
+	vertical-align: top;
+	letter-spacing: 0;
+	border: 1px solid #4A7194;
+	float: right;
+
 }
 button#home.button span::before {
 	content: url("../images/home.png");
+	padding-right: 10px;
+	vertical-align: text-bottom;
 }
 
 div#white_img_frame {
@@ -83,8 +93,7 @@ section#footer {
 	font-family: "Hind Vadodara", sans-serif;
 	font-weight: 600;
 	font-size: .80em;
-	padding-bottom: 20px;
-	padding-top: 10px;
+	padding-top: 20px;
 	text-align: center;
 }
 
@@ -94,7 +103,7 @@ section#footer {
 
 #footer_content li {
 	display: inline-block;
-	padding: 10px;
+	padding: 10px 8px;
 	color: #4980A9;
 }
 
