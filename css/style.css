@@ -1,0 +1,16 @@
+#background {
+	width: 100%;
+}
+#background_top {
+	background: repeat url("../images.bgtile.png");
+}
+
+
+
+#footer_content {
+	list-style: none;
+}
+
+#footer_content li {
+	display: inline-block;
+}
