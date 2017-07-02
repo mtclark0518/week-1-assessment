@@ -1,16 +1,60 @@
-#background {
+/*
+font-family: 'Roboto', sans-serif;
+font-family: 'Hind Vadodara', sans-serif;
+*/
+
+
+h1 {
+	font-family: "Hind Vadodara", sans-serif;
+	color: #113A5F;
+}
+
+p {
+	font-family: "Roboto", sans-serif;
+}
+
+
+section#background {
 	width: 100%;
+
 }
-#background_top {
-	background: repeat url("../images.bgtile.png");
+div#background_top {
+	position: absolute;
+	height: 280px;
+	width: 101%;
+	background: repeat url("../images/bgtile.png");
+	z-index: -1;	
+}
+section#main {
+	width: 850px ;
+	margin: auto;
 }
 
+img#phones {
+	float: left;
+}
+div#white_img_frame {
+	background: no-repeat url("../images/frame.png");
+	margin-left: 340px;
+}
 
-
+section#footer{
+	clear: both;
+	font-family: "Hind Vadodara", sans-serif;
+	font-weight: 600;
+	font-size: .80em;
+	padding: 50px 0;
+	text-align: center;
+}
 #footer_content {
 	list-style: none;
 }
 
 #footer_content li {
 	display: inline-block;
+	padding: 10px;
+	color: #4980A9;
+}
+li#copyright {
+	color: #A8A9A8;
 }
