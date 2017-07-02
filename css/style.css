@@ -7,6 +7,8 @@ font-family: 'Hind Vadodara', sans-serif;
 h1 {
 	font-family: "Hind Vadodara", sans-serif;
 	color: #113A5F;
+	font-size: 1.5em;
+	margin: 0;
 }
 
 p {
@@ -20,14 +22,22 @@ section#background {
 }
 div#background_top {
 	position: absolute;
-	height: 280px;
+	padding-top: 100px;
+	height: 180px;
 	width: 101%;
 	background: repeat url("../images/bgtile.png");
 	z-index: -1;	
 }
 section#main {
-	width: 850px ;
+	width: 900px ;
 	margin: auto;
+	padding-top: 100px;
+
+}
+div#main_right_side {
+	width: 500px;
+	display: inline-block;
+	margin-left: 50px;
 }
 
 img#phones {
@@ -35,9 +45,16 @@ img#phones {
 }
 div#white_img_frame {
 	background: no-repeat url("../images/frame.png");
-	margin-left: 340px;
-}
 
+}
+div#frame_content {
+	margin: 20px 20px 0;
+	padding: 25px 25px 0;
+	} 
+
+.badge {
+	padding: 25px 10px;
+}
 section#footer{
 	clear: both;
 	font-family: "Hind Vadodara", sans-serif;
