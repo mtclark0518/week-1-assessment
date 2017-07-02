@@ -1,25 +1,4 @@
-/*
-font-family: 'Roboto', sans-serif;
-font-family: 'Hind Vadodara', sans-serif;
-*/
 
-
-h1 {
-	font-family: "Hind Vadodara", sans-serif;
-	color: #113A5F;
-	font-size: 1.5em;
-	margin: 0;
-}
-
-p {
-	font-family: "Roboto", sans-serif;
-}
-
-
-section#background {
-	width: 100%;
-
-}
 div#background_top {
 	position: absolute;
 	padding-top: 100px;
@@ -28,41 +7,87 @@ div#background_top {
 	background: repeat url("../images/bgtile.png");
 	z-index: -1;	
 }
+
 section#main {
 	width: 900px ;
 	margin: auto;
-	padding-top: 100px;
+	padding-top: 83px;
 
-}
-div#main_right_side {
-	width: 500px;
-	display: inline-block;
-	margin-left: 50px;
 }
 
 img#phones {
 	float: left;
 }
+
+div#main_right_column {
+	width: 500px;
+	display: inline-block;
+	margin-left: 50px;
+}
+div#top_right_column {
+	height: 78px;
+}
+
+#brand {
+}
+
+button#home.button {
+	display: inline;
+	font-family: "Hind Vadodara", sans-serif;
+	font-weight: 600;
+	color: #DFE8F0;
+	background: #4980A9;
+	margin-left: ;
+	padding: 10px;
+}
+button#home.button span::before {
+	content: url("../images/home.png");
+}
+
 div#white_img_frame {
 	background: no-repeat url("../images/frame.png");
-
+	background-size: inherit; 
 }
+
 div#frame_content {
 	margin: 20px 20px 0;
-	padding: 25px 25px 0;
-	} 
+	padding: 30px 30px 0;
+	font-family: "Hind Vadodara", sans-serif;
+
+}
+
+h1 {
+	font-family: "Hind Vadodara", sans-serif;
+	color: #113A5F;
+	font-size: 2.0em;
+	margin: 0;
+}
+
+p {
+	font-size: 1.0em;
+	line-height: 1.5;
+	margin: 10px 0;
+	padding-top: 5px
+}
+
+section#background {
+	width: 100%;
+} 
 
 .badge {
 	padding: 25px 10px;
 }
-section#footer{
+
+section#footer {
 	clear: both;
 	font-family: "Hind Vadodara", sans-serif;
 	font-weight: 600;
 	font-size: .80em;
-	padding: 50px 0;
+	padding-bottom: 20px;
+	padding-top: 10px;
 	text-align: center;
 }
+
 #footer_content {
 	list-style: none;
 }
@@ -72,6 +97,7 @@ section#footer{
 	padding: 10px;
 	color: #4980A9;
 }
+
 li#copyright {
 	color: #A8A9A8;
 }
